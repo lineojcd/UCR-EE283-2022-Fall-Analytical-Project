@@ -9,5 +9,5 @@ Co-author: Rohit Lal
 
 
 ## Demo
-<a href="https://www.youtube.com/watch?v=Z8zErxgSJNk" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+<a href="https://www.youtube.com/watch?v=Z8zErxgSJNk" target="_blank"><img src="https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/simulation.png" 
 alt="IMAGE ALT TEXT HERE" width="640" height="480" border="10" /></a>
