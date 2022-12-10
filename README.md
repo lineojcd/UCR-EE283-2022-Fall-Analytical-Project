@@ -15,10 +15,4 @@ alt="IMAGE ALT TEXT HERE" width="1299" height="690"  /></a>
 
 
 
-## test
-[<img src="https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=Hc79sDi3f0U "Now in Android: 55")
-
-
-<p align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z8zErxgSJNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
+ 
