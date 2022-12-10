@@ -14,7 +14,9 @@ Click on the image below to display the video
 alt="IMAGE ALT TEXT HERE" width="1299" height="600"  /></a>
 
 ## How to run the code
-move the whole folder "mobile_manipulator_body" to your catkin workspace and then type ****catkin_make**** to build the package
+* move the whole folder "mobile_manipulator_body" to your catkin workspace 
+* type ****catkin_make**** to build the package
+* make sure you install all the dependency packages
 
 ## Launch in Rviz
 ```roscd mobile_manipulator_body/urdf/```
