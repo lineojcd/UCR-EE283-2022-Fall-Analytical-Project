@@ -9,7 +9,7 @@ Co-author: Rohit Lal
 
 
 ## Demo
-Click on the image below to display the video
+* Click on the image below to display the video on youtube
 <a href="https://www.youtube.com/watch?v=Z8zErxgSJNk" target="_blank"><img src="https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/simulation.png" 
 alt="IMAGE ALT TEXT HERE" width="1299" height="600"  /></a>
 
