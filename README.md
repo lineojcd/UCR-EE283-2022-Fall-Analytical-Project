@@ -18,9 +18,11 @@ move the whole folder "mobile_manipulator_body" to your catkin workspace and the
 
 ## Launch in Rviz
 ```roscd mobile_manipulator_body/urdf/```
+
 ```roslaunch urdf_tutorial display.launch model:=robot_arm.urdf```
 ## Launch in Gazebo
 ```roscd mobile_manipulator_body/launch/```
+
 ```roslaunch mobile_manipulator_body arm_gazebo_control.launch```
 
  
