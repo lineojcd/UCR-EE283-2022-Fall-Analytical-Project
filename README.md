@@ -74,5 +74,7 @@ Or type the below command to bring the robot back to the home position.
 
 ## Future work
 * Add joint limits in Gazebo simulation 
-* Attach this robot arm onto a mobile robot base
+* Attach this robot arm onto a mobile robot base, see example below:
+
+![simulation_gazebo4_base](https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/simulation_gazebo4_base.jpeg)
  
