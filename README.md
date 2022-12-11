@@ -25,7 +25,7 @@ Our code works on Ubuntu 16 + Ros kinetic + python 3.6. Except for that, the bel
 
 ```sudo apt-get install ros-kinetic-gazebo-ros-control```
 
-## How to run the code
+## How to install this repository
 * move the whole folder "**mobile_manipulator_body**" to your catkin workspace under **src** folder
 * type ****catkin_make**** to build the package, or use the command:
 ```catkin_make --only-pkg-with-deps mobile_manipulator_body```
@@ -38,7 +38,7 @@ Our code works on Ubuntu 16 + Ros kinetic + python 3.6. Except for that, the bel
 
 Change the Fixed Frame to **world**. Next, you can move the arm using the sliders.
 
-Here are the active ROS topics.
+Here are the active ROS topics. ```rostopic list```
 ![rostopic_rivz](https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/rostopic_rivz.png)
 
 
@@ -52,6 +52,9 @@ Open a new terminal window, and go to the package then launch file.
 Open another terminal window, then go to the folder **~/catkin_ws/src/mobile_nanipulator_body/src**, and run the command below:
 
 ```python test_kinematics.py```
+
+Here are the active ROS topics. ```rostopic list```
+![rostopic_gazebo](https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/rostopic_gazebo.png)
 
 ## Future work
 * Add joint limits in Gazebo simulation 
