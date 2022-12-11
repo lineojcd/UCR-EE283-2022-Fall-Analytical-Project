@@ -16,6 +16,14 @@ We present a 4 DOF pesticide spraying robot structure. The goal of this robot is
 <a href="https://www.youtube.com/watch?v=Z8zErxgSJNk" target="_blank"><img src="https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/simulation.png" 
 alt="IMAGE ALT TEXT HERE" width="1299" height="600"  /></a>
 
+## Install dependencies
+Our code works on Ubuntu 16 + Ros kinetic + python 3.6. Except for that, the below packages are also needed:
+```sudo apt-get install ros-kinetic-ros-control```
+
+```sudo apt-get install ros-kinetic-ros-controllers```
+
+```sudo apt-get install ros-kinetic-gazebo-ros-control```
+
 ## How to run the code
 * move the whole folder "mobile_manipulator_body" to your catkin workspace 
 * type ****catkin_make**** to build the package
