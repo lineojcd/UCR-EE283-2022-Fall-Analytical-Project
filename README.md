@@ -39,6 +39,7 @@ Our code works on Ubuntu 16 + Ros kinetic + python 3.6. Except for that, the bel
 Change the Fixed Frame to **world**. Next, you can move the arm using the sliders.
 
 Here are the active ROS topics. ```rostopic list```
+
 ![rostopic_rivz](https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/rostopic_rivz.png)
 
 
@@ -54,6 +55,7 @@ Open another terminal window, then go to the folder **~/catkin_ws/src/mobile_nan
 ```python test_kinematics.py```
 
 Here are the active ROS topics. ```rostopic list```
+
 ![rostopic_gazebo](https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/rostopic_gazebo.png)
 
 ****Quick approach (alternative)****
