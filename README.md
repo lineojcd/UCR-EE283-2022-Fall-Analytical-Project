@@ -27,12 +27,11 @@ Our code works on Ubuntu 16 + Ros kinetic + python 3.6. Except for that, the bel
 
 ## How to run the code
 * move the whole folder "**mobile_manipulator_body**" to your catkin workspace under **src** folder
-* type ****catkin_make**** to build the package, or use the command below:
-
+* type ****catkin_make**** to build the package, or use the command:
 ```catkin_make --only-pkg-with-deps mobile_manipulator_body```
 * make sure you install other needed dependency packages
 
-## Launch in Rviz
+## Test the Robot Arm in Rviz
 ```roscd mobile_manipulator_body/urdf/```
 
 ```roslaunch urdf_tutorial display.launch model:=robot_arm.urdf```
