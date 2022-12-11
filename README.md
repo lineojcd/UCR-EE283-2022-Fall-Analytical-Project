@@ -17,7 +17,7 @@ We present a 4 DOF pesticide spraying robot structure. The goal of this robot is
 alt="IMAGE ALT TEXT HERE" width="1299" height="600"  /></a>
 
 ## Install dependencies
-Our code works on Ubuntu 16 + Ros kinetic + python 3.6. Except for that, the below packages are also needed:
+Our code works on Ubuntu 16 + Ros kinetic + python 3.6. Except for that, the below packages are also needed(type the commands in terminal):
 ```sudo apt-get install ros-kinetic-ros-control```
 
 ```sudo apt-get install ros-kinetic-ros-controllers```
@@ -25,7 +25,7 @@ Our code works on Ubuntu 16 + Ros kinetic + python 3.6. Except for that, the bel
 ```sudo apt-get install ros-kinetic-gazebo-ros-control```
 
 ## How to run the code
-* move the whole folder "mobile_manipulator_body" to your catkin workspace 
+* move the whole folder "mobile_manipulator_body" to your catkin workspace under **src** folder
 * type ****catkin_make**** to build the package
 * make sure you install all the dependency packages
 
