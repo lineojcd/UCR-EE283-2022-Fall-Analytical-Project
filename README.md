@@ -43,10 +43,15 @@ Here are the active ROS topics.
 
 
 ## Launch the Robot Arm in Gazebo
+Open a new terminal window, and go to the package then launch file.
+
 ```roscd mobile_manipulator_body/launch/```
 
 ```roslaunch mobile_manipulator_body arm_gazebo_control.launch```
 
+Open another terminal window, then go to the folder **~/catkin_ws/src/mobile_nanipulator_body/src**, and run the command below:
+
+```python test_kinematics.py```
 
 ## Future work
 * Add joint limits in Gazebo simulation 
