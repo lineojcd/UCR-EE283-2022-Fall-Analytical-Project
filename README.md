@@ -57,6 +57,7 @@ Here are the active ROS topics. ```rostopic list```
 ![rostopic_gazebo](https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/rostopic_gazebo.png)
 
 ****Quick approach (alternative)****
+
 Instead of running the python script, one can also type this command to move the robot arm and see the result quickly:
 
 ```rostopic pub /arm_controller/command trajectory_msgs/JointTrajectory '{joint_names: ["arm_base_joint","shoulder_joint", "bottom_wrist_joint", "top_wrist_joint"], points: [{positions: [-0.1, 0.5, 0.02, 0], time_from_start: [1,0]}]}' -1```
