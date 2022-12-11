@@ -37,6 +37,10 @@ Our code works on Ubuntu 16 + Ros kinetic + python 3.6. Except for that, the bel
 ```roslaunch urdf_tutorial display.launch model:=robot_arm.urdf```
 
 Change the Fixed Frame to **world**. Next, you can move the arm using the sliders.
+
+![rostopic_rivz](https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/rostopic_rivz.png)
+
+
 ## Launch the Robot Arm in Gazebo
 ```roscd mobile_manipulator_body/launch/```
 
