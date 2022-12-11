@@ -38,6 +38,7 @@ Our code works on Ubuntu 16 + Ros kinetic + python 3.6. Except for that, the bel
 
 Change the Fixed Frame to **world**. Next, you can move the arm using the sliders.
 
+Here are the active ROS topics.
 ![rostopic_rivz](https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/rostopic_rivz.png)
 
 
