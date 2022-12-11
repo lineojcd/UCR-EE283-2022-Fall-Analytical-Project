@@ -68,6 +68,10 @@ Or type the below command to bring the robot back to the home position.
 
 ```rostopic pub /arm_controller/command trajectory_msgs/JointTrajectory '{joint_names: ["arm_base_joint","shoulder_joint", "bottom_wrist_joint", "top_wrist_joint"], points: [{positions: [0, 0, 0, 0], time_from_start: [1,0]}]}' -1```
 
+## home position in Gazebo
+
+![simulation_gazebo3](https://github.com/lineojcd/UCR-EE283-2022-Fall-Analytical-Project/blob/main/img/simulation_gazebo3.png)
+
 ## Future work
 * Add joint limits in Gazebo simulation 
 * Attach this robot arm onto a mobile robot base
